@@ -1,0 +1,496 @@
+<form action="" method="post" name="regForm" id="regForm" enctype="multipart/form-data">
+	<input type="hidden" id="caphdn" name="caphdn">
+  <section class="registration" id="rfhtml">
+
+    <aside class="tax"><span>Registration Form</span></aside>
+    <aside class="form"><span>All (*) Marked Fields are Mandatory</span>
+      <section class="form1">
+        <aside class="box1">
+          <input  size="20" type="text" value="" id="name" name="name"  placeholder="Name*" class="form-control rsform-input-box alpha-only" />
+        </aside>
+        <aside class="box1">
+          <input  size="20" type="text" id="dob" name="dob" value="" placeholder="Date of Birth*" class="form-control rsform-input-box col" />
+        </aside>
+        <aside class="box4">
+       <select id="gender" name="gender">
+	      <option value="">Gender*</option>
+	      <option value="Male">Male</option>
+	      <option value="Female">Female</option>  
+	    </select>
+        <select id="bld_grp" name="bld_grp">
+	      	<option value="">Blood Group*</option>
+	      	<option value="O-">O-</option>
+			<option value="O+">O+</option>
+			<option value="A-">A-</option>
+			<option value="A+">A+</option>
+			<option value="B-">B-</option>
+			<option value="B+">B+</option>
+			<option value="AB-">AB-</option>
+			<option value="AB+">AB+</option>  
+    	</select>
+        </aside>
+        <aside class="box2">
+          <input  size="20" type="text" value="" id="address" name="address" placeholder="Enter your address*" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box1 box11">
+          <input  size="20" type="text" value="" name="post_code" id="post_code" placeholder="Post code*" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box3">
+          <input  size="20" type="text" value="" name="mobile_num" id="mobile_num" placeholder="Mobile Number*" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box3">
+          <input  size="20" type="text" value="" name="email" id="email" placeholder="Email Address*" class="form-control rsform-input-box" />
+        </aside>
+      </section>
+      <section class="form2">
+        <h3><em>I want to donate</em></h3>
+        <section class="checkbox">
+        <ul>
+          <li class="first">
+            <input type="checkbox" value="1" id="donate_any" name="donate_any"  />
+            <label>Any of my organs and tissue or,</label>
+          </li>
+          <li>
+            <label>My</label>
+          </li>
+          <li>
+          
+            <input type="checkbox" value="Corneas" id="donate[]" name="donate[]" class="donate"/>
+            <label>Corneas</label>
+            
+          </li>
+          <li>
+            <input type="checkbox" value="Kidneys" id="donate[]" name="donate[]" class="donate"/>
+            <label>Kidneys</label>
+          </li>
+          <li>
+            <input type="checkbox" value="Heart" id="donate[]" name="donate[]" class="donate"/>
+            <label>Heart</label>
+          </li>
+          <li>
+            <input type="checkbox" value="Lungs" id="donate[]" name="donate[]" class="donate"/>
+            <label>Lungs</label>
+          </li>
+          <li>
+            <input type="checkbox" value="Pancreas" id="donate[]" name="donate[]" class="donate"/>
+            <label for="donate[]"><span></span>Pancreas</label>
+          </li>
+          <li>
+            <input type="checkbox" value="Small bowel" id="donate[]" name="donate[]" class="donate"/>
+            <label>Small bowel</label>
+          </li>
+          <li>
+            <input type="checkbox" value="Eyes" id="donate[]" name="donate[]" class="donate"/>
+            <label>Eyes</label>
+          </li>
+          <li>
+            <input type="checkbox" value="tissue" id="donate[]" name="donate[]" class="donate"/>
+            <label>Tissue</label>
+          </li>
+        </ul>
+        </section>
+        <p class="yellow">For transplantation after my death.</p>
+        <p>
+          <label>Please tick here if you would like to receive future information about blood, organ and tissue donation</label>
+          <input type="checkbox" value="1" id="rec_infrm" name="rec_infrm" />
+        </p>
+      </section>
+      <section class="form1 form4">
+        <aside class="box3">
+          <input  size="20" type="text" value="" id="ken_name" name="ken_name" placeholder="Enter your Kin's Name" class="form-control rsform-input-box alpha-only" />
+        </aside>
+        <aside class="box3">
+          <input  size="20" type="text" value="" id="ken_email" name="ken_email" placeholder="Enter your Kin's Email Address" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box3">
+          <input  size="20" type="text" value="" id="ken_mobile" name="ken_mobile" placeholder="Enter your Kin's Contact Number" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box3">
+         <input  size="20" type="text" value="" id="capcha" name="capcha" placeholder="Enter Security Code*" class="form-control rsform-input-box" />
+        </aside>
+        <aside class="box3"> <span>NZCJ</span>   </aside>
+        <aside class="button-main">
+          <input type="submit" id="submit" value="Register" class="register-button" />
+        </aside>
+      </section>
+    </aside>
+  </section>
+  </form>
+  <style>
+      @font-face {
+	font-family:robotobold;
+	src:url(../fonts/roboto-bold-webfont.eot);
+	src:url(../fonts/roboto-bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/roboto-bold-webfont.woff) format('woff'),url(../fonts/roboto-bold-webfont.ttf) format('truetype'),url(../fonts/roboto-bold-webfont.svg#robotobold) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+@font-face {
+	font-family:robotomedium;
+	src:url(../fonts/roboto-medium-webfont.eot);
+	src:url(../fonts/roboto-medium-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/roboto-medium-webfont.woff) format('woff'),url(../fonts/roboto-medium-webfont.ttf) format('truetype'),url(../fonts/roboto-medium-webfont.svg#robotomedium) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+@font-face {
+	font-family:robotoregular;
+	src:url(../fonts/roboto-regular-webfont.eot);
+	src:url(../fonts/roboto-regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/roboto-regular-webfont.woff) format('woff'),url(../fonts/roboto-regular-webfont.ttf) format('truetype'),url(../fonts/roboto-regular-webfont.svg#robotoregular) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+
+html {
+	font-size:10px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0)
+}
+body {
+	font-family:"robotoregular", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:1.42857143;
+	color:#333;
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+
+form#regForm {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,ul{margin:0;padding:0;list-style:none}
+.m0{margin:0!important}
+.mt0{margin-top:0!important}
+.mt5{margin-top:5px!important}
+.mt15{margin-top:15px!important}
+.mt20{margin-top:20px!important}
+.mt25{margin-top:25px!important}
+.mt30{margin-top:30px!important}
+.mt35{margin-top:35px!important}
+.mt40{margin-top:40px!important}
+.mr0{margin-right:0!important}
+.mr5{margin-right:5px!important}
+.mr10{margin-right:10px!important}
+.mr15{margin-right:15px!important}
+.mr20{margin-right:20px!important}
+.mr25{margin-right:25px!important}
+.mr30{margin-right:30px!important}
+.mr35{margin-right:35px!important}
+.mr40{margin-right:40px!important}
+.mb0{margin-bottom:0!important}
+.mb5{margin-bottom:5px!important}
+.mb10{margin-bottom:10px!important}
+.mb15{margin-bottom:15px!important}
+.mb20{margin-bottom:20px!important}
+.mb25{margin-bottom:25px!important}
+.mb30{margin-bottom:30px!important}
+.mb35{margin-bottom:35px!important}
+.mb40{margin-bottom:40px!important}
+.ml0{margin-left:0!important}
+.ml5{margin-left:5px!important}
+.ml10{margin-left:10px!important}
+.ml15{margin-left:15px!important}
+.ml20{margin-left:20px!important}
+.ml25{margin-left:25px!important}
+.ml30{margin-left:30px!important}
+.ml35{margin-left:35px!important}
+.ml40{margin-left:40px!important}
+.pt0{padding-top:0!important}
+.pt5{padding-top:5px!important}
+.pt10{padding-top:10px!important}
+.pt15{padding-top:15px!important}
+.pt20{padding-top:20px!important}
+.pt25{padding-top:25px!important}
+.pt30{padding-top:30px!important}
+.pt35{padding-top:35px!important}
+.pt40{padding-top:40px!important}
+.pr0{padding-right:0!important}
+.pr5{padding-right:5px!important}
+.pr10{padding-right:10px!important}
+.pr15{padding-right:15px!important}
+.pr20{padding-right:20px!important}
+.pr25{padding-right:25px!important}
+.pr30{padding-right:30px!important}
+.pr35{padding-right:35px!important}
+.pr40{padding-right:40px!important}
+.pb0{padding-bottom:0!important}
+.pb5{padding-bottom:5px!important}
+.pb10{padding-bottom:10px!important}
+.pb14{padding-bottom:10px!important}
+.pb15{padding-bottom:15px!important}
+.pb20{padding-bottom:20px!important}
+.pb25{padding-bottom:25px!important}
+.pb30{padding-bottom:30px!important}
+.pb35{padding-bottom:35px!important}
+.pb40{padding-bottom:40px!important}
+.pl5{padding-left:5px!important}
+.pl15{padding-left:15px!important}
+.pl25{padding-left:25px!important}
+.pl30{padding-left:30px!important}
+.pl35{padding-left:35px!important}
+.pl40{padding-left:40px!important}
+img {max-width:100%;}
+.img-responsive {display:block;max-width:100%;height:auto}
+
+.container {padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.container2 {padding-right:0px;padding-left:0px;margin-right:auto;margin-left:auto}
+
+@media (min-width:768px) {
+.container {width:100%; padding:0;}
+.container2 {width:100%; padding:0;}
+
+}
+@media (min-width:992px) {
+.container {width:960px}
+.container2 {width:960px}
+}
+@media (min-width:1200px) {
+.container {width:1160px}
+.container2 {width:1160px}
+}
+.wrapper {margin:0; padding:0;}
+.m-header {width:100%; float:left; padding:25px 0;}
+.left{float:left}
+.right{float:right}
+.text-center {text-align:center;}
+.m-header-logo {width:40%;}
+.m-header-logo .logo-apollo {width:100%; float:left; padding-left:15px;}
+.m-header-right {width:50%; text-align:right; padding-left:15px;}
+.m-header-right figure {float:right;padding-top:7px;}
+.m-header-right span.phone {width:35px; height:40px; background:url('../images/icon-contact.png') no-repeat center top; display:inline-block; margin:20px 0 0 0;}
+.m-header-right span.text {display:inline-block; float:right; color:#007d9e; font:15px/22px 'robotobold'; margin:21px 0 0 5px;}
+.m-main-banner {width:100%; background:url('../images/banner-desktop.png') no-repeat center top #f5faff; float:left; border-top:8px solid #febf27; height:426px; position:relative; z-index:2}
+
+
+.registration {float:left; padding:0; margin:0px; width:100%;}
+.tax {background:#febf27; width:94%; margin:15px 0 0px 0; float:left; text-align:center; padding:10px 3%;}
+.tax span {color:#fff; font:24px/30px 'robotobold';     text-transform: uppercase;}
+.form {background:#3c3c3c; width:94%; margin:0; float:left; text-align:center; padding:15px 3%; color:#4f4f4f; font:15px/24px 'robotobold';}
+.form span {color:#fff; font:11px/24px 'robotoregular';}
+.form1 {width:85%; display:inline-block;}
+.form1 .box1 {float:left; width:31%; margin:15px 3.5% 10px 0;}
+.form1 .box11 {float:right; width:31%; margin:10px 0% 10px 0;}
+.form1 .box1:nth-child(3) {float:right;margin-right:0%;}
+.form1 .box1 input {width:94%;}
+.form1 .box2 {float:left; width:65.7%; margin:10px 0% 10px 0;}
+.form1 .box2 input {width:96.3%; padding:5px 10px; float:left;}
+.form1 .box3 {float:left; width:25%; margin:10px 3.5% 15px 0;}
+.form1 .box3 input {width:94%;}
+.form1 .box4 {float:right; width:31%; margin:15px 0 10px 0;}
+.form1 .box4 select {width:40%; float:left; background:#f2f3f4; padding:5px 0; font:15px/24px 'robotoregular'; border:1px solid #f2f3f4; color:#a2a2a2;}
+.form1 .box4 select:nth-child(2) {width:49%; float:right;}
+.rsform-input-box {background:#f2f3f4; padding:5px 3%; font:15px/24px 'robotoregular'; border:1px solid #f2f3f4; color:#a2a2a2;}
+
+.form2 {width:90%; display:inline-block; border:1px solid #977e33;-webkit-border-radius: 5px;   -moz-border-radius: 5px;  border-radius: 5px;  position: relative; z-index: 0; margin:30px 0 15px 0; padding:0 0 20px 0}
+
+.form2 h3 {z-index:3;border:1px solid #ffca29;display:inline-block; color:#ffca29; font:16px/30px 'robotoregular'; position:relative; top:-20px; margin:0px 0 0px 0; padding:3px 10px; background:#3c3c3c; -webkit-border-radius:  2px;  -moz-border-radius:  2px;  border-radius: 2px; text-align:center}
+.form2 ul {margin:0; padding:0; float:left; width:100%;}
+.form2 ul li {margin:0; padding:0 10px; display:inline-block; text-align:center;}
+.form2 ul li.first {width:100%;}
+.form2 ul li label {color:#fff; font:15px/30px 'robotoregular'; margin-left:5px;}
+.form2 ul li input {margin:3px 0 0 0;}
+.form2 p label {color:#fff; font:15px/30px 'robotoregular'; margin-right:5px;}
+.form2 p input {margin:3px 0 0 0;}
+.form2 .yellow {z-index:3;display:inline-block; color:#ffca29; font:16px/30px 'robotoregular';margin:0px 0 0px 0; padding:15px 0px 0px 0px;text-align:center; float:left; width:100%;}
+.box3 span {float:left; background:url('../images/check2.png') no-repeat left top; padding:0px 25px; color:#141c41; font:16px/30px 'robotobold';}
+.button-main {width:100%; float:left;}
+.register-button {background:#e81922; padding:10px 50px; color:#fff; text-transform:uppercase; cursor:pointer; border:none;border-bottom:3px solid #a50007;}
+
+.regi { float: left; width: 80%; padding: 10px 10%; text-align: center;  color: #4f4f4f;  font: 14px/24px 'robotobold'; margin:15px 0;}
+
+.col { background:url('../images/col.png') no-repeat 97% 6px #f2f3f4;}
+
+
+
+
+
+.banner18-wrap {clear:both;position:relative;width:100%;border:8px solid #ffca29;border-width:8px 0 8px 0;margin-bottom:82px}
+.banner18-wrap .banner18-top{text-align:center;background:url('../images/organ-donation.jpg') no-repeat center top;min-height:426px;}
+.banner18-top h1 {padding-top:125px;font:700 48px Roboto,sans-serif; color:#363636;text-align:center;}
+.banner18-top h1.red {padding-top:0 !important;color:#f90f19}
+.banner18-top .organ-button {background:#e2141d;color:#fff;border:none;border-bottom:3px solid #a50007;display:inline-block;outline:0;text-align:center;border-radius:0;font-size:24px;padding:3px 25px;margin-top:10px; cursor:pointer;}
+.banner18-wrap .banner18-content {background:#3c3c3c;padding:20px 0;position:relative;}
+.banner18-wrap .banner18-content h2 {font:31px 'robotobold'; color:#ffca29; text-align:center;}
+.banner18-wrap .banner18-content p {font:18px 'robotomedium'; color:#ececec; text-align:center;}
+.banner18-wrap .banner18-content .gift-life {position:absolute;top:-74px;left:30px;}
+
+.organ-process{position:relative;margin:0 0px 30px 0px;background:#dfdede;border-radius:8px;text-align:center;display:block;width:86%;padding:0 15px; display:inline-block;}
+.organ-process figure{margin-top:-57px;margin-bottom:10px;text-align:center;display:inline-block}
+.organ-process h3 {font:18px 'robotobold'; color:#3c3c3c; text-align:center;text-transform:uppercase;margin-bottom:20px}
+.organ-process  p.brd {position:relative;font:14px 'robotomedium'; color:#3c3c3c; text-align:center;padding:15px 0;margin-bottom:15px}
+.organ-process  p.brd:before {content:"";position:absolute;left:38%;width:22%;border:1px solid #ffca29;top:0}
+.organ-process  p.brd:after {content:"";position:absolute;left:38%;width:22%;border:1px solid #ffca29;bottom:0}
+.organ-process  p {font:italic 14px 'robotomedium'; color:#3c3c3c; text-align:center;padding-bottom:10px}
+.organ-process ul.process {clear:both;display:block;width:100%;text-align:center;margin-bottom:20px}
+.organ-process ul.process li{display:block;font:14px 'robotomedium'; color:#3c3c3c; text-align:center;}
+.organ-process ul.process li span{background:url('../images/bullet.png') 0 6px no-repeat;padding-left:11px;}
+
+.living-deceased-blk{width:100%;display:block;margin:-40px 0 80px;padding:0}
+.living-deceased-blk .living{width:479px;margin:0 20px 0 0;display:inline-block}
+.living-deceased-blk .hdg{display:block;background:#e0121b;font:18px 'robotobold'; color:#fff;text-align:center;padding:5px 0;text-transform:uppercase;line-height:20px}
+.living ul.live{padding-left:38px;display:block}
+.living ul.live li{float:left;width:73px;padding-right:15px;display:inline-block;text-align:center;}
+.living ul.live li figure{padding:0;margin:0;display:inline-block}
+.living ul.live li p{font:13px/16px 'robotobold';color:#3c3c3c;text-align:center;}
+.living-deceased-blk .deceased{width:657px;display:inline-block;}
+.deceased ul.deced{width:100%;display:block;padding-right:40px;text-align:center;}
+.deceased ul.deced li{float:left;width:73px;padding-left:15px;display:inline-block;;text-align:center}
+.deceased ul.deced li figure{padding:0;margin:0;display:inline-block}
+.deceased ul.deced li p{font:13px/16px 'robotobold';color:#3c3c3c;text-align:center}
+
+.footer {width:94%; background:#e7e6e6; float:left; padding:0px 3%; border-top:9px solid #ffca29;}
+.footer .footer-social {background:#e7e6e6; float:left; padding:0px 15px 0 0;}
+.footer .footer-social span {float:left; padding:20px 0 0 0; display:inline-block;}
+.footer .footer-social ul, .footer-social ul li{float:left}
+.footer .footer-social ul li a{float:left;height:56px;width:31px;margin-left:10px;background:url(../images/icons.png) left top no-repeat;display:inline-block}
+.footer .footer-social ul li.icon-fb a{background-position:0px -1px}
+.footer .footer-social ul li.icon-twitter a{background-position:-34px -1px }
+.footer .footer-social ul li.icon-linkedin a{background-position:-69px -1px}
+.footer .footer-social ul li.icon-blog a{background-position:0px -61px}
+
+.footer .footer-address {width:815px; background:#e7e6e6; float:right; padding:18px 0 0 0; color:#4f4f4f; font:15px/24px 'robotoregular'; text-align:left;}
+.footer .footer-address a {color:#4f4f4f; text-decoration:none;}
+
+
+
+@media (max-width:1199px) {
+.banner18-wrap .banner18-top{min-height:350px;background-size:cover}
+.banner18-top h1 {padding-top:110px;}
+.footer .footer-address {width:700px;}
+.living-deceased-blk .living {width:390px;}
+.living-deceased-blk .deceased {width: 545px;}
+.living ul.live {padding-left: 15px;}
+.living ul.live li {padding-right: 13px; width:62px}
+.deceased ul.deced li {padding-left: 13px; width:62px}
+.living ul.live li p, .deceased ul.deced li p {font:13px/20px 'robotoregular';}
+.form1 .box2 input {width:96%}
+}
+@media (max-width:991px) {
+.banner18-wrap .banner18-top{min-height:262px;}
+.banner18-top h1 {padding-top:55px;font:700 48px Roboto,sans-serif;}
+
+.living-deceased-blk .living{width:455px;margin:0;display:inline-block}
+.living-deceased-blk .deceased{width:630px;display:inline-block}
+.living-deceased-blk .hdg{display:block;background:#e0121b;font:18px 'robotobold'; color:#fff;text-align:center;padding:5px 0;text-transform:uppercase;line-height:20px}
+.living ul.live{padding:0 0 0 15px;display:block}
+.living ul.live li{width:73px;padding-right:15px;padding-bottom:20px}
+.deceased ul.deced{width:100%;display:block;padding-right:0;padding-left:0px}
+.deceased ul.deced li{float:left;width:73px;padding-left:15px;}
+.form1 .box2 input {width:95%}
+.m-header {position: fixed; top: 0; z-index: 1000; background: #fff; left:0; width:94%; padding:10px 3% !important;}
+.banner18-wrap {margin-top:115px}
+}
+
+@media (max-width:980px) {
+.footer .footer-address {width: 455px; padding:5px 0 0 0;font: 15px/20px 'robotoregular'; text-align:center;}
+.footer .footer-social ul li.icon-fb a  { margin-left: 10px;}
+.banner18-wrap .banner18-content p {padding:0 15px;}
+}
+
+@media (max-width:767px) {
+.m-header-right figure {max-width:100px;}
+.m-header {padding:10px 0;}
+.m-header-logo {width:200px;}
+.m-header-right span.phone {margin:10px 0 0 0;}
+.m-header-right span.text {margin:10px 0 0 5px}
+.banner18-wrap .banner18-top{min-height:259px;background-size:cover}
+.banner18-top h1 {padding-top:50px;font:700 35px Roboto,sans-serif; color:#363636;text-align:center;}
+.banner18-top .organ-button {font-size:24px;padding:3px 25px;margin-top:10px}
+.banner18-wrap .banner18-content .gift-life {top:-65px;left:15px;}
+.banner18-wrap .banner18-content .gift-life img {width:90%}
+.banner18-wrap .banner18-content h2 {font:26px 'robotobold';}
+.banner18-wrap .banner18-content p {font:16px 'robotomedium'; }
+
+.footer .footer-address {width:100%; background:#fff; margin: 0 -15px; padding: 10px 15px 15px 15px;}
+.footer .footer-social {width:100%; text-align:center;}
+.footer .footer-social span, .footer .footer-social ul {float:none; display:inline-block}
+.footer .footer-social span {position: relative;   top: -20px; padding:0px 0 0 0}
+.footer .footer-social ul li a {height: 50px;}
+.footer .footer-social ul li.icon-fb a{background-position:0px -10px}
+.footer .footer-social ul li.icon-twitter a{background-position:-34px -10px }
+.footer .footer-social ul li.icon-linkedin a{background-position:-69px -10px}
+.footer .footer-social ul li.icon-blog a{background-position:0px -70px}
+.footer {width:93%;}
+.form1 {width:90%;}
+.form1 .box1 {width:48%; margin:15px 4% 10px 0}
+.form1 .box1:nth-child(2) {margin:15px 0% 10px 0}
+.form1 .box2 {width:48%; margin:15px 4% 10px 0 }
+
+.form1 .box11 {margin:15px 0% 10px 0}
+.form1 .box4 {width:100%;}
+.form1 .box4 select {width:48.2%;}
+.form1 .box4 select:nth-child(2) {width:48%;}
+.form1 .box3 {width:48%; margin:15px 4% 10px 0}
+.form1 .box3:last-child {margin:15px 0% 10px 0}
+.form4 .box3 {width:48%; margin:15px 0% 10px 0}
+.form4 .box3:first-child, .form4 .box3:nth-child(4) {margin:15px 4% 10px 0}
+.form4 .box3:nth-child(3) {width:100%}
+.form2 {width:94%; padding:0 3% 20px}
+.rsform-input-box {font:13px/24px 'robotoregular'}
+.m-header-logo .logo-apollo {padding-left:0;}
+.regi {font:14px/20px 'robotoregular'}
+.form1 .box2 input {width: 92%;}
+.footer-social {position:relative;}
+.footer .footer-social ul {position:relative; top:2px}
+.banner18-wrap {margin-top:75px}
+}
+@media (max-width:690px) {
+.living-deceased-blk .living{width:315px;margin:0;display:inline-block}
+.living-deceased-blk .deceased{width:425px;display:inline-block}
+.living-deceased-blk .hdg{display:block;background:#e0121b;font:18px 'robotobold'; color:#fff;text-align:center;padding:5px 0;text-transform:uppercase;line-height:20px}
+.living ul.live{padding:0 0 0 15px;display:block}
+.living ul.live li{width:49px;padding-right:10px;padding-bottom:20px}
+.deceased ul.deced{width:100%;display:block;padding-right:0;padding-left:0px}
+.deceased ul.deced li{float:left;width:49px;padding-left:10px;}
+.living ul.live li p, .deceased ul.deced li p {font:11px/17px 'robotoregular';}
+}
+
+@media (max-width:640px) {
+.banner18-wrap .banner18-top{min-height:226px;}
+.banner18-top h1 {font:700 30px Roboto,sans-serif;}
+.banner18-top .organ-button {font-size:18px;padding:3px 15px;margin-top:10px}
+.banner18-wrap .banner18-content .gift-life {top:-50px;left:15px;}
+.banner18-wrap .banner18-content .gift-life img {width:70%}
+.banner18-wrap .banner18-content h2 {font:20px 'robotobold';}
+.banner18-wrap .banner18-content p {font:14px 'robotomedium'; }
+.footer .footer-address {width:100%; word-break: break-word;}
+.m-header-right {padding-right:0; width:40%}
+.m-header-right span.text {font:12px/22px 'robotobold'}
+.m-header-right span.phone {width:25px; height:28px; }
+.form1 .box2 input {width: 89.8%;}
+
+}
+@media (max-width:480px) {
+.banner18-wrap {margin-top:64px}
+.form1 .box2 input {width: 93.7%;}
+.banner18-wrap .banner18-content .gift-life {top:-43px;left:10px;}
+.banner18-wrap .banner18-content .gift-life img {width:60%}
+.banner18-wrap .banner18-content h2 {font:18px 'robotobold';}
+.banner18-wrap .banner18-content p {font:12px 'robotomedium'; }
+
+.living-deceased-blk .living{width:232px;margin:0;display:inline-block}
+.living-deceased-blk .deceased{width:292px;display:inline-block}
+.living-deceased-blk .hdg{display:block;background:#e0121b;font:12px 'robotobold'; color:#fff;text-align:center;padding:2px 0;text-transform:uppercase;line-height:20px}
+.living ul.live{padding:0 0 0 15px;display:block}
+.living ul.live li{width:38px;padding-right:3px;padding-bottom:20px}
+.deceased ul.deced{width:100%;display:block;padding-right:0;padding-left:0px}
+.deceased ul.deced li{float:left;width:38px;padding-left:3px;}
+.living ul.live li p, .deceased ul.deced li p {font:9px/12px 'robotoregular';}
+
+.footer {width:94%;}
+
+.form1 .box1, .form1 .box2, .form1 .box3 {width:100%; margin:10px 0 10px 0 !important;}
+.form1 .box4 {margin:10px 0 10px 0 !important;}
+.form4 .box3 {width:100%; margin:10px 0 10px 0}
+.form4 .box3:nth-child(4) {width:55%}
+.form4 .box3:nth-child(5) {width:40%; margin:12px 0 10px 5% !important}
+.m-header-logo {width:145px}
+}
+
+@media (max-width:375px) {
+.form1 .box2 input {width: 92.5%;}
+.registration {width:100%}
+}
+  </style>
